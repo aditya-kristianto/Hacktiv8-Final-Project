@@ -27,9 +27,9 @@ import (
 // @license.name Apache 2.0
 // @license.url http://www.apache.org/licenses/LICENSE-2.0.html
 
-// @host localhost:1323
+// @host hacktiv8-final-project-production.up.railway.app
 // @BasePath /
-// @schemes http
+// @schemes https
 func main() {
 	// err := godotenv.Load()
 	// if err != nil {
