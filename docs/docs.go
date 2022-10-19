@@ -1243,9 +1243,9 @@ const docTemplate = `{
 // SwaggerInfo holds exported Swagger Info so clients can modify it
 var SwaggerInfo = &swag.Spec{
 	Version:          "1.0",
-	Host:             "localhost:1323",
+	Host:             "hacktiv8-final-project-production.up.railway.app",
 	BasePath:         "/",
-	Schemes:          []string{"http"},
+	Schemes:          []string{"https"},
 	Title:            "Swagger Final Project API",
 	Description:      "This is a sample server Final Project server.",
 	InfoInstanceName: "swagger",

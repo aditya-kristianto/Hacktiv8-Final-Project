@@ -77,7 +77,7 @@ definitions:
         example: aditya.kristianto
         type: string
     type: object
-host: localhost:1323
+host: hacktiv8-final-project-production.up.railway.app
 info:
   contact:
     email: kristianto.aditya@gmail.com
@@ -823,5 +823,5 @@ paths:
       tags:
       - Users
 schemes:
-- http
+- https
 swagger: "2.0"
