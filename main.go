@@ -52,5 +52,7 @@ func main() {
 	r := app.NewRouter(postgresDB)
 	r.Init(e)
 
-	e.Logger.Fatal(e.Start(":1323"))
+	appPort := os.Getenv("PORT")
+	
+	e.Logger.Fatal(e.Start(":" + appPort))
 }
